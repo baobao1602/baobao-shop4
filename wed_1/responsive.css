@@ -1,0 +1,179 @@
+  /* pc */
+  @media (min-width: 1024px) {
+
+}
+
+
+/*  tablet and mobile */
+@media (max-width: 1023px) {
+
+
+
+
+    .socials-list {
+        font-size: 44px;
+    }
+    
+    
+}
+
+/*  break point */
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    
+    #nav > li {
+        display: block;
+    }
+
+    /* thu phần Trang chủ lại nhỏ hơn k bị tràn ra ngoài */
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background: rgb(246, 151, 83);
+
+    }
+
+    #nav .subnav a {
+        padding: 0 41px;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #header .searsh {
+        display: none;
+    }
+
+    
+
+    #content .hatchomeo-img {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .tour-section {
+        padding: 15px;
+    }
+
+    .col-third {
+        width: 100%;
+    }
+
+    .s-col-full {
+        width: 100%;
+    }
+
+    .contact-info { 
+        padding-left: 15px;
+    }
+    
+    .contact-form {
+        padding-right: 15px;
+        margin-top: 16px;
+        padding-left: 15px;
+        padding-bottom: 25px;
+    }
+}
+
+/* mobile */
+@media (max-width: 740px) {
+
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    
+    #nav > li {
+        display: block;
+    }
+
+    /* thu phần Trang chủ lại nhỏ hơn k bị tràn ra ngoài */
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background: rgb(246, 151, 83);
+
+    }
+
+    #nav .subnav a {
+        padding: 0 41px;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #header .searsh {
+        display: none;
+    }
+
+    
+
+    #content .hatchomeo-img {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .tour-section {
+        padding: 15px;
+    }
+
+    .col-third {
+        width: 100%;
+    }
+
+    .s-col-full {
+        width: 100%;
+    }
+
+    .contact-info { 
+        padding-left: 15px;
+    }
+    
+    .contact-form {
+        padding-right: 15px;
+        margin-top: 16px;
+        padding-left: 15px;
+        padding-bottom: 25px;
+    }
+
+}
